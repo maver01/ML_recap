@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "0-hello-world"
+version = "0.1.0"
+description = "To test poetry, docker and git."
+authors = ["maver01 <matteo.sabadin4@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.26.2"
+datetime = "^5.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
